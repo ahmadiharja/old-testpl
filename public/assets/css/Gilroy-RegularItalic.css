@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Gilroy-RegularItalic';
+	src: url(../../assets/fonts/Gilroy-RegularItalic-a08b553f0cae3231867b46ce55294096.woff2) format('woff2'),
+	url(../../assets/fonts/Gilroy-RegularItalic-91d44b7a6f8ed154797bb12fae7f0000.woff) format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}

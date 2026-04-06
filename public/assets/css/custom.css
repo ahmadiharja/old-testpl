@@ -1,0 +1,171 @@
+table.dataTable thead tr{
+        border-top-left-radius: 1rem !important;
+    }
+
+    div.dt-search{
+        display: none !important;
+    }
+
+    div.dt-container .dt-paging .dt-paging-button{
+        font-weight: 500 !important;
+        border-radius: 0.5rem !important;
+        padding-top: 5px !important;
+        padding-bottom: 3.5px !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    div.dt-container .dt-paging .dt-paging-button.current, div.dt-container .dt-paging .dt-paging-button.current:hover{
+        background-color: #049FD9 !important;
+        border-color: #049FD9 !important;
+        font-weight: 500 !important;
+        color: white !important;
+        border-radius: 0.5rem !important;
+        padding-top: 5px !important;
+        padding-bottom: 3.5px !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    div.dt-container .dt-paging button.dt-paging-button:hover{
+
+    }
+
+    div.dt-info{
+        padding-left: 10px;
+    }
+
+    div.dt-paging{
+        padding-right: 10px;
+    }
+
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+        font-weight: 500;
+        }   
+        
+        .nav-link{
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        
+        .nav-menu span, .dropdown-item2 span{
+            padding-top: 3.3px;
+        }
+        
+        .dropdown-item .span2{
+            padding-top: 3.4px;
+            display: inline-block;
+        }
+        
+        .page-item .page-link{
+            padding-bottom: 0px;
+            font-weight: 500;
+        }
+        
+        .fw-semibold{
+            font-weight: 500 !important;
+        }
+        
+        a{
+            outline: 0;
+        }
+        
+        .nav-menu .nav-link.active {
+        margin-bottom: 0;
+        border-left-color: #049FD9;
+        }
+        
+        .active > .page-link, .page-link.active {
+            background-color:#049FD9;
+            border-color:#049FD9;
+        }
+        
+        .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link:hover {
+        color: #049FD9;
+        }
+        
+        .nav-menu .nav-link.active svg path {
+          fill: #049FD9;
+          stroke: #049FD9;
+        }
+        
+        .nav-menu .nav-link:hover svg path {
+          stroke: #049FD9;
+        }
+        
+        .btn:hover svg path, .btn:active svg path, .btn:focus-visible svg path, .btn.show svg path{
+            fill:inherit;
+        }
+        
+        .card-stats{
+            --bs-card-height: 165px;
+        }
+        
+        .navbar-icon {
+        --bs-btn-bg: #f1fafe;
+        --bs-btn-border-color:#f1fafe;
+        border-color: #f1fafe;
+        }
+        
+        .text-black, b, h1, h2, h3, h4, h5, h6, .text-primary{
+                    color:#313E5B !important;
+                }
+        
+        .border-primary{
+            border-color: #049FD9 !important;
+        }
+        
+        .form-control-wrapper .form-control{
+        }
+        
+        .nav-tabs .nav-link{
+            margin-bottom: inherit;
+        }
+        
+        .form-control, .form-select {
+            padding: .59rem 0.9rem;
+            font-size: 0.9rem;
+        }
+        
+        .avatar-img{
+            width:43px !important;
+            height:43px !important;
+            object-fit:cover;
+        }
+        
+        .dt-column-title{
+                color:#313E5B !important;
+            }
+        
+            .text-left{
+                text-align: left !important;
+            }
+
+            #site-success{
+                position: fixed;
+                bottom: 20px;
+                left: 50%;
+                transform: translateX(-50%);
+                background-color: #27AE60;
+                padding: 10px;
+                padding-left: 15px;
+                padding-right: 15px;
+                color: white;
+                z-index: 9999;
+                border-radius: 1rem;
+            }
+            
+            #site-failed{
+                position: fixed;
+                bottom: 20px;
+                left: 50%;
+                transform: translateX(-50%);
+                background-color: red;
+                padding: 10px;
+                padding-left: 15px;
+                padding-right: 15px;
+                color: white;
+                z-index: 9999;
+                border-radius: 1rem;
+            }
+            

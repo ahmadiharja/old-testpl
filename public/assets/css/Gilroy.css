@@ -1,0 +1,170 @@
+@font-face {
+	font-family: 'Gilroy';
+	src: url(../../assets/fonts/Gilroy-3027af41864f9e23fc489b74c3dcfe7f.woff2) format('woff2'),
+	url(../../assets/fonts/Gilroy-fb2be35a37f04be2913d0213ba07a6b3.woff) format('woff');
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url(../../assets/fonts/Gilroy-ef66fd04c297e3432f1e1a02c45d6eca.woff2) format('woff2'),
+	url(../../assets/fonts/Gilroy-bc73fcc732f9ecd3f5ecc32ce5ebbe4a.woff) format('woff');
+	font-weight: 100;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url(../../assets/fonts/Gilroy-70dc477e61bf0aba53097a132c4fe202.woff2) format('woff2'),
+	url(../../assets/fonts/Gilroy-7a6c052efcaadca85004897220d63cf7.woff) format('woff');
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url(../../assets/fonts/Gilroy-3ea20e8ab7f657455239e9fe689e28ec.woff2) format('woff2'),
+	url(../../assets/fonts/Gilroy-b836b79dd5abb53cb579ae7f16a9a9b6.woff) format('woff');
+	font-weight: 200;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url(../../assets/fonts/Gilroy-d78e624f50939ccf179fa2b0d3b71e9b.woff2) format('woff2'),
+	url(../../assets/fonts/Gilroy-9aa88c778fe14355621deb8d3022ed1d.woff) format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url(../../assets/fonts/Gilroy-82ec7777e3ea8eb70f8cdfdc0d0e072c.woff2) format('woff2'),
+	url(../../assets/fonts/Gilroy-ed5b40b1a2cc08e5d9b24c23e5bda3e1.woff) format('woff');
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url(../../assets/fonts/Gilroy-f2ea9e8baa079306b6ee4768dc9f7d3a.woff2) format('woff2'),
+	url(../../assets/fonts/Gilroy-303238a9032d4c532f73e7e8f1b6a980.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url(../../assets/fonts/Gilroy-f017bf67f6f267cb344d042d33e84bb5.woff2) format('woff2'),
+	url(../../assets/fonts/Gilroy-ad6943c76d4803d06f1eaca9917faaba.woff) format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url(../../assets/fonts/Gilroy-edee124beab98ea29ed46a3c1163b7f7.woff2) format('woff2'),
+	url(../../assets/fonts/Gilroy-3471ef0fcf399ab0a887561e4e5bfbdb.woff) format('woff');
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url(../../assets/fonts/Gilroy-4cda5f21594a3af224e9f2b00ead497e.woff2) format('woff2'),
+	url(../../assets/fonts/Gilroy-f9c495df7843ca78c74497f224a4b160.woff) format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url(../../assets/fonts/Gilroy-11debfe9c1d03fca0174b9a911c3edc1.woff2) format('woff2'),
+	url(../../assets/fonts/Gilroy-a01150a26b4cb086722730672b365f2d.woff) format('woff');
+	font-weight: 600;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url(../../assets/fonts/Gilroy-84b3ebba3b8f2a46e30b23ab3a825830.woff2) format('woff2'),
+	url(../../assets/fonts/Gilroy-7bcd499422bac051e1125b1c55b50834.woff) format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url(../../assets/fonts/Gilroy-4d20a2d5ac622f4bdadbe8653de6929f.woff2) format('woff2'),
+	url(../../assets/fonts/Gilroy-01ee34aeddf3397f07f906f13a7f1e2b.woff) format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url(../../assets/fonts/Gilroy-8662a065bcd0cd3d9344c01cceefcbcd.woff2) format('woff2'),
+	url(../../assets/fonts/Gilroy-e40e957f15190687e4c6ad3e66a638dc.woff) format('woff');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url(../../assets/fonts/Gilroy-4224142c4db5fb94596a9cb024a3510e.woff2) format('woff2'),
+	url(../../assets/fonts/Gilroy-3db159a95681eff8179bf5c6f3d23e82.woff) format('woff');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url(../../assets/fonts/Gilroy-f6a9ec6748154380f7ec3ac13c2e7b29.woff2) format('woff2'),
+	url(../../assets/fonts/Gilroy-747de7cc0ade6c2b0125bf4a0c7c79d8.woff) format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url(../../assets/fonts/Gilroy-edd4fa2c0ab960ca4626c79ffd655a0a.woff2) format('woff2'),
+	url(../../assets/fonts/Gilroy-52eac0b0fa066df6836e1dc522a32b01.woff) format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url(../../assets/fonts/Gilroy-8b37313743c904b62e159310461ca5c6.woff2) format('woff2'),
+	url(../../assets/fonts/Gilroy-d64b430a1911c05f27308245585a2b03.woff) format('woff');
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url(../../assets/fonts/Gilroy-f0fd0c0d304f9578f2e757198f8e4e9c.woff2) format('woff2'),
+	url(../../assets/fonts/Gilroy-4751f5c9699b89c103a011d942e1864f.woff) format('woff');
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;
+}
