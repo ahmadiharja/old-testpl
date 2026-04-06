@@ -26,11 +26,21 @@ class auth
         $setting=\App\Models\Setting::pluck('value', 'title')->toArray();
         
         $user=\App\Models\User::find($id);
-        $role=\App\Models\ModelRoles::where([['model_type', 'App\Models\User'], ['model_id', $user->id]])->orWhere([['model_type', 'App\User'], ['model_id', $user->id]])->first();
-        if($role->role_id=='1') $role='super';
-        elseif($role->role_id=='2') $role='admin';
-        elseif($role->role_id=='3') $role='user';
-        else $role='user';
+        $roleRecord = \App\Models\ModelRoles::where([['model_type', 'App\Models\User'], ['model_id', $user->id]])
+            ->orWhere([['model_type', 'App\User'], ['model_id', $user->id]])
+            ->first();
+
+        if (!$roleRecord) {
+            $role = 'user';
+        } elseif ($roleRecord->role_id == '1') {
+            $role = 'super';
+        } elseif ($roleRecord->role_id == '2') {
+            $role = 'admin';
+        } elseif ($roleRecord->role_id == '3') {
+            $role = 'user';
+        } else {
+            $role = 'user';
+        }
 
         $path=$request->path();
         if($role=='user' AND ($path=='site-settings' OR $path=='alert-settings')) return redirect('/');
