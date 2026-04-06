@@ -391,12 +391,16 @@ class Synchronize extends Controller
             foreach ($data as $name => $value) {
                 $d->$name = $value;
             }
+            $d->updated_at = Carbon::now();
             $d->save();
 
             if ($old != $d->serial) {
                 event(new TreeChanged($this->facility->id));
             }
         }
+
+        $this->workstation->last_connected = Carbon::now();
+        $this->workstation->save();
 
         return true;
     }
@@ -442,6 +446,9 @@ class Synchronize extends Controller
                 $this->logger->error("Preferences update data: " . json_encode($update_data, 1));
                 DisplayPreference::updateOrCreate($where, $update_data);
             }
+
+            $display->updated_at = Carbon::now();
+            $display->save();
 
             // update server changes as synced
             DisplayPreference::where(['display_id' => $display->id, 'sync' => 0])->update(['sync' => 1]);
@@ -827,6 +834,9 @@ class Synchronize extends Controller
             //$this->logger->error("Settings update data: " . json_encode($update_data, 1));
             SettingsName::updateOrCreate($where, $update_data);
         }
+
+        $this->workstation->last_connected = Carbon::now();
+        $this->workstation->save();
     }
 
     /**
